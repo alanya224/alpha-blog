@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Ruby on Rails</title>
+    <head>
+        <%= stylesheet_link_tag "style.css" %>
+    </head>
+    <body>
+        <div id="main-menu">
+          <ul>
+            <li><a href="index.html" title="Home">HOME</a></li>
+            <li><a href="" title="">LEARNING RAILS</a></li>
+            <li><a href="HCJ.html" title="">LEARNING HTML/CSS/JV</a></li>
+            <li id="logo"><%= link_to image_tag('rails.png'),root_path %></li>
+            <li><a href="" title="">LEARNING BOOTSTRAP</a></li>
+            <li><a href="" title="">LEARNING JQUERY</a></li></li>
+            <li><%= link_to 'ABOUT ME', about_path %></li>
+          </ul>
+        </div>
+        
+        <div id="about-me">
+            <div><%= image_tag('toan.jpg',size:"200x300") %></div>
+            <div>
+                <p>Hello, My name is Toan. I'm 21 and I come from Vietnam</p>
+                <p>I'm currently working on this website as a place to note my Ruby on Rails course and also when it's finished, it's gonna be a Ruby on Rails tutorial website for everyone</p>
+                
+            </div>
+        </div>
+        
+        <footer>
+          <p>Made by Toan Nguyen - Love Ruby on Rails with all his heart</p>
+          <p>HEDSPI K59 - Trường Đại Học Bách Khoa Hà Nội</p>
+        </footer>
+    </body>
+</html>
